@@ -1,4 +1,4 @@
-main: bmi.o main.o
+bmi: bmi.o main.o
 	g++ -o bmi main.o bmi.o
 
 bmi.o: bmi.cpp bmi.h
